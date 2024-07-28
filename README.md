@@ -7,7 +7,7 @@ This is an official starter Turborepo.
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+npx create-turbo@latest -e with-yarn
 ```
 
 ## What's inside?
@@ -38,7 +38,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm build
+yarn build
 ```
 
 ### Develop
@@ -47,7 +47,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm dev
+yarn dev
 ```
 
 ### Remote Caching
